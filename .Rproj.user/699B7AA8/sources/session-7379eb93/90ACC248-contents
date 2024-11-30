@@ -1,0 +1,25 @@
+Package: sampl3s
+Type: Package
+Title: Sampling Techniques and Tools for Population Analysis
+Version: 0.1.0
+Author: person("Bonaventura", "Gerardo", email = "bonaventuragerardo@mail.ugm.ac.id")
+        person("Dina", "Puspita Sari", email = "dinapuspitasari2005@mail.ugm.ac.id")
+        person("Salma", "Dewi Nataya", email = "salmadewinataya@mail.ugm.ac.id")
+        person("Selena", "Maritza Wirawan", email = "selenamaritzawirawan@mail.ugm.ac.id")
+        person("Septiyana", "Putri Isnaini", email = "septiyanaputriisnaini2004@mail.ugm.ac.id")
+Maintainer: Salma Dewi Nataya <salmadewinataya@mail.ugm.ac.id>
+Description: The `sampl3s` package provides a suite of functions for designing,
+    selecting, and analyzing samples from populations. It includes methods for
+    calculating required sample sizes, performing various sampling techniques 
+    (random, stratified, cluster, systematic), and estimating population 
+    parameters from sample data. Additional features include margin of error 
+    calculation, sample frame validation, and visualization of sampling methods.
+    The package is designed to facilitate efficient and reproducible sampling 
+    workflows in data analysis.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.2
+Imports:
+  dplyr,
+  ggplot2
